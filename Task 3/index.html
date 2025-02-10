@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        width: 200%;
+        background-image: url(naruto.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0%;
+        padding: 0%;
+      }
+
+      .box {
+        background-image: url(pencil.jpg);
+        padding: 2%;
+        margin: 5%;
+        border-radius: 10%;
+        height: fit-content;
+        background-position: cover;
+      }
+      .box1 {
+        font-size: larger;
+      }
+      .box2 {
+        font-size: larger;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>
+        <center>Login</center>
+      </h1>
+      <div class="box1">
+        <label>Email</label>
+        <input type="email" placeholder="enter email" />
+        <i class="bx bxs-user-circle"></i>
+      </div>
+      <br />
+      <div class="box2">
+        <label>pass</label>
+        <input type="password" placeholder="enter password" requird />
+        <i class="bx bxs-lock-alt"></i>
+      </div>
+      <br />
+      <div class="remember password">
+        <input type="checkbox" /><label>rember password</label>
+      </div>
+      <div class="forgot password">
+        <a href="#">forgot password?</a>
+      </div>
+      <br />
+      <div class="button">
+        <button>Login</button>
+      </div>
+      <br />
+      <p>Do you an account?<a href="#">sign</a></p>
+    </div>
+  </body>
+</html>
